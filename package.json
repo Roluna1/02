@@ -10,8 +10,12 @@
     "deploy": "vite build && gh-pages -d dist"
   },
   "devDependencies": {
+    "@types/firebase": "^3.2.1",
     "gh-pages": "^6.1.1",
     "typescript": "^5.5.3",
     "vite": "^5.4.1"
+  },
+  "dependencies": {
+    "firebase": "^10.13.1"
   }
 }
